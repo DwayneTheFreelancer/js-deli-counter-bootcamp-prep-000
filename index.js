@@ -19,6 +19,7 @@ function currentLine(lineNum) {
   if(lineNum.length === 0) {
     return "The line is currently empty.";
   } else {
+    var lineLength = ``;
     
   }
 }
