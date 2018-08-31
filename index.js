@@ -22,10 +22,11 @@ function currentLine(lineNum) {
     var lineLength = ``;
     for (let i = 0; i < lineNum.length; i++) {
       if(i != lineNum.length -1) {
-        lineLength += `${i+1}. ${lineLength[i]} `;
+        lineLength += `${i+1}. ${lineNum[i]} `;
       } else {
-        
+        line_list += `${i+1}. ${lineNum[i]}`;
       }
     }
   }
+  return 
 }
