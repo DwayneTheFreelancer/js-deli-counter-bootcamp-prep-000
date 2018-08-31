@@ -22,9 +22,9 @@ function currentLine(lineNum) {
       var line_list = ``;
       for (var i = 0; i < lineNum.length; i++) {
         if(i != lineNum.length -1) {
-          line_list += `${i+1}. ${line[i]}, `;
+          lineLength += `${i+1}. ${lineNum[i]}, `;
         } else {
-          line_list += `${i+1}. ${line[i]}`;
+          lineLength += `${i+1}. ${lineNum[i]}`;
         }
       }
       return `The line is currently: ${line_list}`;
