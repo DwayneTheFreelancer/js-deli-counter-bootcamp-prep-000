@@ -1,6 +1,6 @@
 var katzDeliLine = [];
 
-function takeANumber(num, name) {
+function takeANumber(katzDeliLine, name) {
   if(num.length >= 0) {
     katzDeliLine.push(name);
   }
