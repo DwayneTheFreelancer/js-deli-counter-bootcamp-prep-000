@@ -24,7 +24,7 @@ function currentLine(lineNum) {
       if(i != lineNum.length -1) {
         lineLength += `${i+1}. ${lineNum[i]} `;
       } else {
-        line_list += `${i+1}. ${lineNum[i]}`;
+        lineLength += `${i+1}. ${lineNum[i]}`;
       }
     }
   }
