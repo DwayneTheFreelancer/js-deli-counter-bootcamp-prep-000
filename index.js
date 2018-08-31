@@ -1,5 +1,5 @@
 var katzDeliLine = [];
 
-function takeANumber(line, name) {
-  return `Welcome, ${name}. You are `;
+function takeANumber(num, name) {
+  return `Welcome, ${name}. You are ${num} in line`;
 }
