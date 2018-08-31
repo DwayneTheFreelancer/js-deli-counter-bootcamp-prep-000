@@ -27,6 +27,6 @@ function currentLine(lineNum) {
         lineLength += `${i+1}. ${lineNum[i]}`;
       }
     }
-    return `The line is currently: ${lineNum}`;
+    return `The line is currently: ${lineNum.length}`;
   }
 }
