@@ -21,7 +21,9 @@ function currentLine(lineNum) {
   } else {
     var lineLength = ``;
     for (let i = 0; i < lineNum.length; i++) {
-      if(i != lineNum.length -1)
+      if(i != lineNum.length -1) {
+        
+      }
     }
   }
 }
