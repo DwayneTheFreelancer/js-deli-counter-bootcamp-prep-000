@@ -28,5 +28,5 @@ function currentLine(lineNum) {
       }
     }
   }
-  return 
+  return `The line is currently: ${lineLength}`;
 }
