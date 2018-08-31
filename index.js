@@ -21,7 +21,7 @@ function currentLine(lineNum) {
   } else {
     var lineLength = ``;
     for (let i = 0; i < lineNum.length; i++) {
-      if(i != lineNum.length -1) {
+      if(i != lineNum.length) {
         lineLength += `${i+1}. ${lineNum[i]} `;
       } else {
         lineLength += `${i+1}. ${lineNum[i]}`;
