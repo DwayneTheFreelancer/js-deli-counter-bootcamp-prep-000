@@ -20,6 +20,8 @@ function currentLine(lineNum) {
     return "The line is currently empty.";
   } else {
     var lineLength = ``;
-    
+    for (let i = 0; i < lineNum.length; i++) {
+      
+    }
   }
 }
